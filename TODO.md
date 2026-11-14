@@ -1,0 +1,135 @@
+# Content to confirm
+
+Every TODO is hidden from visitors. Edit src/data/content.ts.
+
+- [ ] content.profile.portrait: portrait at /images/varun.webp
+- [ ] content.profile.portraitSmall: 400px portrait variant
+- [ ] content.profile.cgpa: CGPA
+- [ ] content.profile.lookingFor: current opportunities sought
+- [ ] content.links.email: email address
+- [ ] content.links.linkedin: LinkedIn profile URL
+- [ ] content.links.resume: resume PDF
+- [ ] content.config.githubSnapshot.asOf: GitHub snapshot date
+- [ ] content.WINS[1].project: second win project
+- [ ] content.WINS[1].event: second win event
+- [ ] content.WINS[1].place: second win placement
+- [ ] content.WINS[2].project: third win project
+- [ ] content.WINS[2].event: third win event
+- [ ] content.WINS[2].place: third win placement
+- [ ] content.projects[0].role: RecoverX personal contribution
+- [ ] content.projects[0].status: RecoverX status
+- [ ] content.projects[0].demo: RecoverX demo URL
+- [ ] content.projects[0].github: RecoverX repository URL
+- [ ] content.projects[1].role: NutriForge personal contribution
+- [ ] content.projects[1].status: NutriForge status
+- [ ] content.projects[1].demo: NutriForge demo URL
+- [ ] content.projects[1].github: NutriForge repository URL
+- [ ] content.projects[2].role: NEURAL-PIT personal contribution
+- [ ] content.projects[2].status: NEURAL-PIT status
+- [ ] content.projects[2].demo: NEURAL-PIT demo URL
+- [ ] content.projects[2].github: NEURAL-PIT repository URL
+- [ ] content.projects[3].role: MerchantForge personal contribution
+- [ ] content.projects[3].status: MerchantForge status
+- [ ] content.projects[3].demo: MerchantForge demo URL
+- [ ] content.projects[3].github: MerchantForge repository URL
+- [ ] content.projects[4].role: SanketAI personal contribution
+- [ ] content.projects[4].status: SanketAI status
+- [ ] content.projects[4].demo: SanketAI demo URL
+- [ ] content.projects[4].github: SanketAI repository URL
+- [ ] content.projects[5].role: NEXUS personal contribution
+- [ ] content.projects[5].demo: NEXUS demo URL
+- [ ] content.projects[5].github: NEXUS repository URL
+- [ ] content.archive[0].built: PravahAI / Nagar-Rakshak implementation
+- [ ] content.archive[0].role: PravahAI / Nagar-Rakshak personal contribution
+- [ ] content.archive[0].status: PravahAI / Nagar-Rakshak status
+- [ ] content.archive[0].demo: PravahAI / Nagar-Rakshak demo URL
+- [ ] content.archive[0].github: PravahAI / Nagar-Rakshak repository URL
+- [ ] content.archive[1].problem: HackOps AI problem
+- [ ] content.archive[1].built: HackOps AI implementation
+- [ ] content.archive[1].role: HackOps AI personal contribution
+- [ ] content.archive[1].status: HackOps AI status
+- [ ] content.archive[1].demo: HackOps AI demo URL
+- [ ] content.archive[1].github: HackOps AI repository URL
+- [ ] content.archive[2].problem: ShikshaVaani problem
+- [ ] content.archive[2].built: ShikshaVaani implementation
+- [ ] content.archive[2].role: ShikshaVaani personal contribution
+- [ ] content.archive[2].status: ShikshaVaani status
+- [ ] content.archive[2].demo: ShikshaVaani demo URL
+- [ ] content.archive[2].github: ShikshaVaani repository URL
+- [ ] content.archive[3].problem: VoiceMap problem
+- [ ] content.archive[3].built: VoiceMap implementation
+- [ ] content.archive[3].role: VoiceMap personal contribution
+- [ ] content.archive[3].status: VoiceMap status
+- [ ] content.archive[3].demo: VoiceMap demo URL
+- [ ] content.archive[3].github: VoiceMap repository URL
+- [ ] content.archive[4].problem: Haq-Trace problem
+- [ ] content.archive[4].built: Haq-Trace implementation
+- [ ] content.archive[4].role: Haq-Trace personal contribution
+- [ ] content.archive[4].status: Haq-Trace status
+- [ ] content.archive[4].demo: Haq-Trace demo URL
+- [ ] content.archive[4].github: Haq-Trace repository URL
+- [ ] content.archive[5].problem: StreakBoard problem
+- [ ] content.archive[5].role: StreakBoard personal contribution
+- [ ] content.archive[5].demo: StreakBoard demo URL
+- [ ] content.archive[5].github: StreakBoard repository URL
+- [ ] content.archive[6].problem: CliniScan problem
+- [ ] content.archive[6].built: CliniScan implementation
+- [ ] content.archive[6].role: CliniScan personal contribution
+- [ ] content.archive[6].status: CliniScan status
+- [ ] content.archive[6].demo: CliniScan demo URL
+- [ ] content.archive[6].github: CliniScan repository URL
+- [ ] content.archive[7].problem: PaySentry problem
+- [ ] content.archive[7].built: PaySentry implementation
+- [ ] content.archive[7].role: PaySentry personal contribution
+- [ ] content.archive[7].status: PaySentry status
+- [ ] content.archive[7].demo: PaySentry demo URL
+- [ ] content.archive[7].github: PaySentry repository URL
+- [ ] content.archive[8].problem: DukaanMitra AI problem
+- [ ] content.archive[8].built: DukaanMitra AI implementation
+- [ ] content.archive[8].role: DukaanMitra AI personal contribution
+- [ ] content.archive[8].status: DukaanMitra AI status
+- [ ] content.archive[8].demo: DukaanMitra AI demo URL
+- [ ] content.archive[8].github: DukaanMitra AI repository URL
+- [ ] content.archive[9].problem: InfraTwin AI problem
+- [ ] content.archive[9].built: InfraTwin AI implementation
+- [ ] content.archive[9].role: InfraTwin AI personal contribution
+- [ ] content.archive[9].status: InfraTwin AI status
+- [ ] content.archive[9].demo: InfraTwin AI demo URL
+- [ ] content.archive[9].github: InfraTwin AI repository URL
+- [ ] content.archive[10].role: AstroDetect personal contribution
+- [ ] content.archive[10].status: AstroDetect status
+- [ ] content.archive[10].demo: AstroDetect demo URL
+- [ ] content.archive[10].github: AstroDetect repository URL
+- [ ] content.archive[11].role: OceanEmbed personal contribution
+- [ ] content.archive[11].status: OceanEmbed status
+- [ ] content.archive[11].demo: OceanEmbed demo URL
+- [ ] content.archive[11].github: OceanEmbed repository URL
+- [ ] content.archive[12].problem: AgriShield / KrishiAI problem
+- [ ] content.archive[12].built: AgriShield / KrishiAI implementation
+- [ ] content.archive[12].role: AgriShield / KrishiAI personal contribution
+- [ ] content.archive[12].status: AgriShield / KrishiAI status
+- [ ] content.archive[12].demo: AgriShield / KrishiAI demo URL
+- [ ] content.archive[12].github: AgriShield / KrishiAI repository URL
+- [ ] content.experience[0].date: Infosys dates
+- [ ] content.experience[2].date: IIT Ropar dates
+- [ ] content.experience[2].detail: exact IIT Ropar title and topic
+- [ ] content.hackathons[1].result: BAH result
+- [ ] content.hackathons[2].result: SIH 2025 precise stage
+- [ ] content.hackathons[8].project: HackVSIT project
+- [ ] content.pendingStages.SIH2026: OceanEmbed SIH 2026 actual stage
+- [ ] content.pendingStages.MLH: confirm current MLH application status
+- [ ] content.pendingStages.NEXUS: NEXUS concept or implemented prototype scope
+- [ ] content.certifications[0].verify: AI-900 verify URL
+- [ ] content.certifications[1].verify: OCI verify URL
+- [ ] content.skills.Core[0].note: Python project evidence
+- [ ] content.skills.Core[2].note: TypeScript project evidence
+- [ ] content.skills.Core[3].note: Tailwind project evidence
+- [ ] content.skills.Working[0].note: Next.js project evidence
+- [ ] content.skills.Working[3].note: confirm PyTorch usage
+- [ ] content.skills.Working[5].note: confirm ChromaDB usage
+- [ ] content.skills.Exploring[0].note: MLOps project evidence
+
+- [ ] Confirm shipped-project count (currently hidden; six featured builds shown).
+- [ ] Supply dated GitHub activity snapshot.
+- [ ] Confirm implementation stacks for archive projects without provided details.
+- [ ] Review unconfirmed competition results before changing TODO_WIN_CONFIRMED flags.

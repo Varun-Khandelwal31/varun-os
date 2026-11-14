@@ -1,0 +1,35 @@
+name: Portfolio quality
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test && npm run build && node scripts/verify-html.mjs
+      - name: Start production preview
+        run: |
+          npx vite preview --host 127.0.0.1 --port 4173 > /tmp/varun-preview.log 2>&1 &
+          for i in $(seq 1 30); do curl -sSf http://127.0.0.1:4173/ >/dev/null && break; sleep 1; done
+      - name: Lighthouse desktop
+        run: npx lighthouse http://127.0.0.1:4173/ --preset=desktop --chrome-flags="--headless --no-sandbox --enable-unsafe-swiftshader" --only-categories=performance,accessibility,best-practices,seo --output=json --output-path=lighthouse-desktop.json --no-enable-error-reporting --quiet
+      - name: Lighthouse mobile 360px
+        run: npx lighthouse http://127.0.0.1:4173/ --screenEmulation.width=360 --screenEmulation.height=780 --screenEmulation.deviceScaleFactor=2 --chrome-flags="--headless --no-sandbox --enable-unsafe-swiftshader" --only-categories=performance,accessibility,best-practices,seo --output=json --output-path=lighthouse-mobile.json --no-enable-error-reporting --quiet
+      - name: Print measured scores
+        run: node scripts/audit-summary.mjs
+      - name: Save Lighthouse reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports
+          path: lighthouse-*.json

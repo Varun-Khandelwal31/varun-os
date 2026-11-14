@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://varun-os-player-one.brainylime8.chatgpt.site/sitemap.xml
